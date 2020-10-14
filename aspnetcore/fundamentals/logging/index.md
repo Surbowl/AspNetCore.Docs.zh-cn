@@ -71,7 +71,7 @@ ms.locfileid: "87330709"
 如下示例中：
 
 * 创建一个记录器 `ILogger<AboutModel>`，该记录器使用类型为 `AboutModel` 的完全限定名称的日志类别。 日志类别是与每个日志关联的字符串。
-* 调用 <xref:Microsoft.Extensions.Logging.LoggerExtensions.LogInformation*> 以在 `Information` 级别登录。 日志“级别”代表所记录事件的严重程度。
+* 调用 <xref:Microsoft.Extensions.Logging.LoggerExtensions.LogInformation*> 以在 `Information` 级别记录日志。 日志“级别”代表所记录事件的严重程度。
 
 [!code-csharp[](index/samples/3.x/TodoApiDTO/Pages/About.cshtml.cs?name=snippet_CallLogMethods&highlight=5,14)]
 
