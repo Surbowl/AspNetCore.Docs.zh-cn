@@ -235,7 +235,7 @@ Host.CreateDefaultBuilder(args)
 
 ### <a name="environmentname"></a>EnvironmentName
 
-[IHostEnvironment.EnvironmentName](xref:Microsoft.Extensions.Hosting.IHostEnvironment.EnvironmentName*) 属性可以设置为任何值。 框架定义的值包括 `Development``Staging` 和 `Production`。 值不区分大小写。
+[IHostEnvironment.EnvironmentName](xref:Microsoft.Extensions.Hosting.IHostEnvironment.EnvironmentName*) 属性可以设置为任何值。 框架定义的值包括 `Development`、`Staging` 和 `Production`。 值不区分大小写。
 
 键：`environment`  
 类型：`string`  
